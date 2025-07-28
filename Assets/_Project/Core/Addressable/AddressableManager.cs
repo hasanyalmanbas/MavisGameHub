@@ -1,6 +1,8 @@
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.ResourceManagement.ResourceProviders;
 using UnityEngine.SceneManagement;
 
 namespace _Project.Core
@@ -29,11 +31,11 @@ namespace _Project.Core
             Addressables.ReleaseInstance(instance);
         }
 
-        public async Task<Scene> LoadSceneAsync(string key, LoadSceneMode mode = LoadSceneMode.Single)
+        public AsyncOperationHandle<SceneInstance> LoadSceneAsync(string key, LoadSceneMode mode = LoadSceneMode.Single,
+            bool activateOnLoad = true)
         {
-            var handle = Addressables.LoadSceneAsync(key, mode, true);
-            var result = await handle.Task;
-            return result.Scene;
+            var handle = Addressables.LoadSceneAsync(key, mode, activateOnLoad);
+            return handle;
         }
 
         public async Task PreloadAssetsAsync(string label)
