@@ -57,3 +57,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d12d710cb2bf541c8b840be19cef2f06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneLoaderUIPrefab: {fileID: 1839669865423581240, guid: c7b90bbd29d7644a18467dc37099a290, type: 3}
+  audioSettings: {fileID: 11400000, guid: 69971784e982b410c83fd3ed0fea14a6, type: 2}
