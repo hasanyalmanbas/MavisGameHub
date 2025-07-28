@@ -1,21 +1,16 @@
-using Reflex.Core;
+using _Project.Core;
+using Reflex.Attributes;
 using UnityEngine;
 
 namespace _Project.Bootstrap
 {
     public class Loader : MonoBehaviour
     {
+        [Inject] private readonly IAddressableManager _addressableManager;
+
         private void Start()
         {
-            var extraInstallerScope = new ExtraInstallerScope(greetSceneScopeBuilder =>
-            {
-                greetSceneScopeBuilder.AddSingleton("of Developers");
-            });
-
-            UnityEngine.AddressableAssets.Addressables.LoadSceneAsync("Hub").Completed += operation =>
-            {
-                extraInstallerScope.Dispose();
-            };
+            _addressableManager.LoadSceneAsync("Hub");
         }
     }
 }
