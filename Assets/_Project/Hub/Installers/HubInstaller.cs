@@ -1,7 +1,7 @@
 using Reflex.Core;
 using UnityEngine;
 
-namespace _Project.Hub.Installers
+namespace _Project.Hub
 {
     public class HubInstaller : MonoBehaviour, IInstaller
     {
