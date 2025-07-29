@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Hub.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/_Project/Games/Match3/Scenes/Match3.unity
+    guid: fa838feb9fa5c4d5ea459c5bd6f3d574
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 9227e98e4b6e046c5b175924d7b5d070, type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: d486c1d27befd4928811bc81b5a8fa57, type: 2}
