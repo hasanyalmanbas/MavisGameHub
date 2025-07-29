@@ -1,6 +1,6 @@
-using _Project.Games.Match3.Scripts.Domain.Services;
+using _Project.Games.Match3.Application.Services;
 
-namespace _Project.Games.Match3.Scripts.Application.UseCases
+namespace _Project.Games.Match3.Application.UseCases
 {
     public class ResetScoreUseCase
     {

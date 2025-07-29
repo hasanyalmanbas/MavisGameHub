@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using _Project.Games.Match3.Scripts.Domain.Entities;
+using _Project.Games.Match3.Domain.Entities;
 
-namespace _Project.Games.Match3.Scripts.Domain.Ports
+namespace _Project.Games.Match3.Domain.Ports
 {
     public interface IGridService
     {

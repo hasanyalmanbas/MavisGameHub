@@ -1,14 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
-using _Project.Games.Match3.Scripts.Application.UseCases;
-using _Project.Games.Match3.Scripts.Domain.Entities;
-using _Project.Games.Match3.Scripts.Domain.Ports;
-using _Project.Games.Match3.Scripts.Domain.Services;
-using _Project.Games.Match3.Scripts.Presentation.Views;
+using _Project.Games.Match3.Application.UseCases;
+using _Project.Games.Match3.Domain.Entities;
+using _Project.Games.Match3.Domain.Ports;
+using _Project.Games.Match3.Presentation.Views;
 using Reflex.Attributes;
 using UnityEngine;
 
-namespace _Project.Games.Match3.Scripts.Presentation.Controllers
+namespace _Project.Games.Match3.Presentation.Controllers
 {
     public class BoardController : MonoBehaviour
     {

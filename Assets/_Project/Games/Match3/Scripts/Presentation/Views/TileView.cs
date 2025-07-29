@@ -1,10 +1,10 @@
 using System.Collections;
-using _Project.Games.Match3.Scripts.Domain.Entities;
-using _Project.Games.Match3.Scripts.Presentation.Controllers;
+using _Project.Games.Match3.Domain.Entities;
+using _Project.Games.Match3.Presentation.Controllers;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace _Project.Games.Match3.Scripts.Presentation.Views
+namespace _Project.Games.Match3.Presentation.Views
 {
     public class TileView : MonoBehaviour, IPointerClickHandler
     {

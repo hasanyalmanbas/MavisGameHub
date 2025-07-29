@@ -1,9 +1,8 @@
-using System;
 using _Project.Core;
-using _Project.Games.Match3.Scripts.Domain.Events;
-using _Project.Games.Match3.Scripts.Domain.Ports;
+using _Project.Games.Match3.Domain.Events;
+using _Project.Games.Match3.Domain.Ports;
 
-namespace _Project.Games.Match3.Scripts.Domain.Services
+namespace _Project.Games.Match3.Application.Services
 {
     public class ScoreService : IScoreService
     {

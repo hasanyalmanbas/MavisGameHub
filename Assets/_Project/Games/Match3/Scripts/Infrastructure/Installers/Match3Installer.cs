@@ -1,10 +1,10 @@
-using _Project.Games.Match3.Scripts.Application.UseCases;
-using _Project.Games.Match3.Scripts.Domain.Ports;
-using _Project.Games.Match3.Scripts.Domain.Services;
+using _Project.Games.Match3.Application.Services;
+using _Project.Games.Match3.Application.UseCases;
+using _Project.Games.Match3.Domain.Ports;
 using Reflex.Core;
 using UnityEngine;
 
-namespace _Project.Games.Match3.Scripts.Infrastructure.Installers
+namespace _Project.Games.Match3.Infrastructure.Installers
 {
     public class Match3Installer : MonoBehaviour, IInstaller
     {

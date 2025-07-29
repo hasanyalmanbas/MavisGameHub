@@ -1,4 +1,4 @@
-namespace _Project.Games.Match3.Scripts.Domain.Events
+namespace _Project.Games.Match3.Domain.Events
 {
     public struct ScoreChangedEvent
     {

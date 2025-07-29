@@ -1,11 +1,10 @@
-using System;
 using _Project.Core;
-using _Project.Games.Match3.Scripts.Domain.Events;
+using _Project.Games.Match3.Domain.Events;
 using Reflex.Attributes;
 using TMPro;
 using UnityEngine;
 
-namespace _Project.Games.Match3.Scripts.Presentation.Views
+namespace _Project.Games.Match3.Presentation.Views
 {
     public class ScoreUI : MonoBehaviour
     {

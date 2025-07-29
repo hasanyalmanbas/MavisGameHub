@@ -1,4 +1,4 @@
-namespace _Project.Games.Match3.Scripts.Domain.Entities
+namespace _Project.Games.Match3.Domain.Entities
 {
     public enum TileType
     {

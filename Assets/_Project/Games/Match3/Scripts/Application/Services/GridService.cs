@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using _Project.Games.Match3.Scripts.Domain.Entities;
-using _Project.Games.Match3.Scripts.Domain.Ports;
+using _Project.Games.Match3.Domain.Entities;
+using _Project.Games.Match3.Domain.Ports;
 
-namespace _Project.Games.Match3.Scripts.Domain.Services
+namespace _Project.Games.Match3.Application.Services
 {
     public class GridService : IGridService
     {

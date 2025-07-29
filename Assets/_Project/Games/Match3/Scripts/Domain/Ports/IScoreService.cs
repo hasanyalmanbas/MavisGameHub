@@ -1,6 +1,4 @@
-using System;
-
-namespace _Project.Games.Match3.Scripts.Domain.Ports
+namespace _Project.Games.Match3.Domain.Ports
 {
     public interface IScoreService
     {
