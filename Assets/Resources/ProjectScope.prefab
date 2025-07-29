@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8019639430089088983}
   - component: {fileID: 8927645000342767082}
   - component: {fileID: 7372061363317999051}
+  - component: {fileID: 4896412791610209434}
   m_Layer: 0
   m_Name: ProjectScope
   m_TagString: Untagged
@@ -59,3 +60,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneLoaderUIPrefab: {fileID: 1839669865423581240, guid: c7b90bbd29d7644a18467dc37099a290, type: 3}
   audioSettings: {fileID: 11400000, guid: 69971784e982b410c83fd3ed0fea14a6, type: 2}
+--- !u!114 &4896412791610209434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4174789163719980229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ac69bc6082b422abc3f6875c8bbf87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  registryAsset: {fileID: 11400000, guid: 7b7af19cbf1de46f7bffffc1a3c0506c, type: 2}
